@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+}
+a{
+	color: #3b9eff;
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+#logo{
+	float: left;
+	width: 20%;
+}
+#header{
+	background: #3b9eff;
+	height: 75px;
+}
+#menu ul{
+	padding: 0;
+	text-align: right;
+	margin: 0;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu a{
+	padding: 28px 15px; /*top + bottom: 28px; left + right: 15px*/
+	display: block;
+	font-weight: bold;
+	color: #fff;
+}
+#menu a:hover{
+	background: #3b95f5;
+}
+#main-content{
+	clear: both; /*no floating elements allowed on either the left or the right side*/
+}
+.main-text{
+	text-align: center;
+	background-color: #3b9eff;
+	color: white;
+	padding: 10px 0;
+}
+#form-dang-tin{
+	width: 60%;
+	margin: 0 auto;
+	border: 2px solid  #3a79d5;
+	padding: 10px;
+	box-shadow: 3px 3px 3px #ccc;
+}
+.form-group label:first-child{
+
+}
